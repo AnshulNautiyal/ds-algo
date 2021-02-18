@@ -1,0 +1,15 @@
+{
+  "name": "dsinjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "linklist",
+  "scripts": {
+    "node": "nodemon $npm_package_name"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
