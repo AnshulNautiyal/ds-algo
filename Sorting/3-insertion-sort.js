@@ -11,7 +11,8 @@ const InsertionSort = (array) => {
     return array;
 }
 
-console.log(InsertionSort([1,2,3,5,4]));
-// console.log(InsertionSort([6,2,8,22,900,33]));
+// console.log(InsertionSort([1,2,3,5,4]));
+console.log(InsertionSort([6,2,8,22,900,33]));
 
 // Work  case O(n2)
+// In Insertion Sort, we keep putting smallest element  in the beginning of array

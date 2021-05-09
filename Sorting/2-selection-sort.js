@@ -17,8 +17,8 @@ const SelectionSort = (array) => {
     }
     return array;
 }
-// console.log(SelectionSort([54,4,5,2,6,1]))
-console.log(SelectionSort([1,2,3,4,5,0]))
+console.log(SelectionSort([54,4,5,2,6,1]))
+// console.log(SelectionSort([1,2,3,4,5,0]))
 
 // O(n2)
 // Selection is better than bubble in only that situation where you swap less compare to swap in bubble

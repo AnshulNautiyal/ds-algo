@@ -1,11 +1,11 @@
 const swap = (array, i ,j) => ([array[j],array[i]] = [array[i], array[j]]);
+
 const BubbleSort = (array) => {
     const arrayLen = array.length;
     var noSwap;
     for(let i = arrayLen - 1; i > 0; i--) {
         noSwap = true;
-        for(let j = 0; j <  i - 1; j++) {
-            console.log(array, array[j], array[j+1])
+        for(let j = 0; j <  i ; j++) {
             if(array[j] > array[j+1]){
                 swap(array,j,j+1);
                 noSwap = false;
