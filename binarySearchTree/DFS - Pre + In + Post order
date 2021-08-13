@@ -1,0 +1,27 @@
+const preorder = (node, array) => {
+    if(!node?.value) return array;
+    array.push(node.value);
+    array = preorder(node.left,array);
+    array = preorder(node.right,array);
+    return array;
+}
+
+let tree = {
+    value:5,
+    left: {
+        value:4,
+        left: {
+            value:3
+        }
+    },
+    right:{
+        value:7,
+        left:{
+            value:6,
+        },
+        right: {
+            value: 8
+        }
+    }
+}
+console.log(preorder(tree,[]));
